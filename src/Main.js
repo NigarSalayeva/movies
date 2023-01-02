@@ -53,10 +53,10 @@ function Main() {
             <img class="nav-icon" src={item.Poster_Link} alt='help'/>
             <div class='block'>
             <p class="ser">{item.Series_Title+' ('+item.Released_Year+')'}</p>
-              <p class="ser">IMDb Rating: {item.IMDB_Rating}</p>
+              <p class="ser">IMDb Rating: ⭐ {item.IMDB_Rating}</p>
               <p class="dir"><b>Overview: </b>{item.Overview}</p>
               <p class="dir"><b>Genre:</b> {item.Genre}</p>
-              <p class="dir"><b>Runtime:</b> {item.Runtime}</p>
+              <p class="dir"><b>Runtime: 🕑 </b> {item.Runtime}</p>
             </div>
         </div>
         </Link>
