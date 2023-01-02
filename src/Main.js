@@ -54,9 +54,9 @@ function Main() {
             <div class='block'>
             <p class="ser">{item.Series_Title+' ('+item.Released_Year+')'}</p>
               <p class="ser">IMDb Rating: {item.IMDB_Rating}</p>
-              <p class="dir">Overview: {item.Overview}</p>
-              <p class="dir">Genre: {item.Genre}</p>
-              <p class="dir">Runtime: {item.Runtime}</p>
+              <p class="dir"><b>Overview: </b>{item.Overview}</p>
+              <p class="dir"><b>Genre:</b> {item.Genre}</p>
+              <p class="dir"><b>Runtime:</b> {item.Runtime}</p>
             </div>
         </div>
         </Link>
