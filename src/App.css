@@ -8,7 +8,7 @@
   width: 80%;
 }
 .lock{
-  border-radius: 5px;
+  border-radius: 10px;
   background: #282c34;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -19,6 +19,17 @@
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
+.lock2{
+  border-radius: 20px;
+  background: #1A120B;
+  margin: 15px;
+  padding: 15px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #E5E5CB;
+}
 #center{
   display: flex;
   width: 100%;
@@ -28,6 +39,13 @@
   height: 100%;
   display: block;
   margin-left: 20px;
+}
+.lock2 img{
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+ 
 }
 .id{
   width: 30px;
@@ -45,19 +63,28 @@
   color: aliceblue;
 }
 .ser{
+  
   font-size: 20px;
-  margin: 0px;
+  margin: 15px;
   font-weight: 600;
 }
 .dir{
-  margin: 0px;
-  margin-left: 3px;
+  clear: both;
+  margin: 7px;
+  margin-left: 15px;
   font-size: 16px;
 }
+.dir2{
+  clear: both;
+  font-size: 20px;
+  margin: 15px;
+  font-weight: 600;
+}
+
 .desc{
   font-size: 14px;
   margin-bottom: 0px;
-  margin-left: 3px;
+  margin-left: 15px;
 }
 .App-logo {
   height: 40vmin;
