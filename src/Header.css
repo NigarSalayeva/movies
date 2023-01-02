@@ -1,0 +1,10 @@
+#header{
+    width: 100%;
+    background: black;
+    color: white;
+    height: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#header h2{
+    margin: 5px;
+}
