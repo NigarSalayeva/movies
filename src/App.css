@@ -22,9 +22,9 @@
 .lock2{
   border-radius: 20px;
   background: #1A120B;
-  margin: 15px;
+  margin: auto;
   padding: 15px;
-  width: 100%;
+  width: 90%;
   display: block;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -70,9 +70,9 @@
 }
 .dir{
   clear: both;
-  margin: 7px;
+  margin: 30px;
   margin-left: 15px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .dir2{
   clear: both;
@@ -82,8 +82,8 @@
 }
 
 .desc{
-  font-size: 14px;
-  margin-bottom: 0px;
+  font-size: 15px;
+  margin-bottom: 5px;
   margin-left: 15px;
 }
 .App-logo {
