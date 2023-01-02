@@ -52,9 +52,11 @@ function Main() {
             <p class="id">{item.id}</p>
             <img class="nav-icon" src={item.Poster_Link} alt='help'/>
             <div class='block'>
-              <p class="ser">{item.Series_Title+' ('+item.Released_Year+')'}</p>
-              <p class="dir">{item.Director}</p>
-              <p class="desc">{item.Star1+', '+item.Star2+', '+item.Star3}</p>
+            <p class="ser">{item.Series_Title+' ('+item.Released_Year+')'}</p>
+              <p class="ser">IMDb Rating: {item.IMDB_Rating}</p>
+              <p class="dir">Overview: {item.Overview}</p>
+              <p class="dir">Genre: {item.Genre}</p>
+              <p class="dir">Runtime: {item.Runtime}</p>
             </div>
         </div>
         </Link>
