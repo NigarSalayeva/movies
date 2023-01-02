@@ -67,7 +67,7 @@ function Main() {
       <ReactPaginate 
       previousLabel={'previous'}
       nextLabel={'next'}
-      pageCount={10}
+      pageCount={50}
       marginPagesDisplayed={2}
       onPageChange={handlePageChange}
       containerClassName={'pagination'}
