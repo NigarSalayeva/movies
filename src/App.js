@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from "./Navbar"
-// import Header from "./Header";
+
 import Home from "./Home"
 import Main from "./Main";
 import Movies from './Movies';
