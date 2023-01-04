@@ -11,16 +11,23 @@ export default function Home() {
       <h4>Nigar Salayeva</h4>
       <h5>Student from ADA University</h5>
       <p>Nigar Salayeva is one of the creators of the webpage. She is a student from SITE(School of Information Technology and Engineering) faculty. She is here with us to show that women can also be ambitious in specialties such as computer science and engineering.</p>
+      <a href="https://nigarsalayeva.github.io/nsalayeva.github.io/" target="_blank">Website</a><br></br>
+      <a href="https://nigarsalayeva.github.io/nsalayeva.github.io/Hw1/index.html" target="_blank">Digital Card</a><br></br>
+      <a href="https://nigarsalayeva.github.io/weatherapp/" target="_blank">Weather App</a>
     </div>
     <div class="blue">
       <h4>Surkhay Fatullayev</h4>
       <h5>Student from ADA University</h5>
       <p>Surkhay Fatullayev is another creator of the webpage. He is also a student from SITE(School of Information Technology and Engineering) faculty. His dream is to  specialize in this field and be known all over the world as the best web developer.</p>
+      <a href="https://visitbaku.github.io/" target="_blank">Weather App</a>
     </div>
   <div class="green">
      <h4>Laman Khudadatzade</h4>
      <h5>Student from ADA University</h5>
      <p>Laman Khudadatzade is one more creator of the website.She is a student of a SITE faculty and believes that computers are taking over the world, so let's develop softwares carefully and gracefully!</p>
+     <a href="" target="_blank">Website</a><br></br>
+      <a href="" target="_blank">Digital Card</a><br></br>
+      <a href="" target="_blank">Weather App</a>
   </div>
       </div>
       
@@ -31,7 +38,7 @@ export default function Home() {
     </li>
     <li>
       <h2>Weather App</h2>
-      <p></p>
+      <p>Weather App is our secong project which website has to give information about current weather by choosing name of city, latitude and longitude or current geolocation. It is also one of the amazing projects. </p>
 
     </li>
     <li>
