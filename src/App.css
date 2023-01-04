@@ -1,4 +1,3 @@
-
 #lock-of{
   width: 100%;
   display: flex;
@@ -81,7 +80,6 @@
   margin: 15px;
   font-weight: 600;
 }
-
 .desc{
   font-size: 15px;
   margin-bottom: 5px;
@@ -90,6 +88,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.pagination{
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -108,7 +110,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 } */
