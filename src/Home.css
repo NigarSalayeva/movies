@@ -1,7 +1,7 @@
 
 
   .team {
-    background-color: #f0ffff;
+    background-color: #d4eaea;
     margin: 40px auto;
     padding: 25px 35px 40px 35px;
     overflow: auto;
@@ -75,12 +75,12 @@
   }
   
   a {
-    color: #4682b4;
-    font-family: 'Raleway', sans-serif;
+    float: right;
+    color: #e7ebef;
     font-size: 15px;
-    font-weight: 950;
-    text-align: center;
-    letter-spacing: 2px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    text-decoration: dashed;
   }
   
   .green {
