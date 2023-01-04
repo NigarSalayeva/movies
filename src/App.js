@@ -1,17 +1,23 @@
 import './App.css';
-import Header from "./Header";
+import Navbar from "./Navbar"
+// import Header from "./Header";
+import Home from "./Home"
 import Main from "./Main";
 import Movies from './Movies';
+import Contact from "./Contact"
 import { Route, Routes } from 'react-router';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       
       <Routes>
-        <Route path='' element={< Main />}/>
-        <Route path={"/:Series_Title"} element={<Movies />}/>
+      <Route path="/" element={<Home />}/>
+      <Route path="/Contact" element={<Contact />}/>
+      <Route path="/Movies" element={<Main />}/>
+      <Route path='' element={< Main />}/>
+      <Route path={"/:Series_Title"} element={<Movies />}/>
       </Routes>
       
     </div>
