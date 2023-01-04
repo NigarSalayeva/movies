@@ -19,15 +19,16 @@ export default function Home() {
       <h4>Surkhay Fatullayev</h4>
       <h5>Student from ADA University</h5>
       <p>Surkhay Fatullayev is another creator of the webpage. He is also a student from SITE(School of Information Technology and Engineering) faculty. His dream is to  specialize in this field and be known all over the world as the best web developer.</p>
+      <a href="https://github.com/SurkhayFatullayev" target="_blank">Website</a><br></br>
       <a href="https://visitbaku.github.io/" target="_blank">Weather App</a>
     </div>
   <div class="green">
      <h4>Laman Khudadatzade</h4>
      <h5>Student from ADA University</h5>
      <p>Laman Khudadatzade is one more creator of the website.She is a student of a SITE faculty and believes that computers are taking over the world, so let's develop softwares carefully and gracefully!</p>
-     <a href="" target="_blank">Website</a><br></br>
-      <a href="" target="_blank">Digital Card</a><br></br>
-      <a href="" target="_blank">Weather App</a>
+     <a href="https://nnamanx.github.io/Personal-portfolio-for-web-and-mobile/" target="_blank">Website</a><br></br>
+      <a href="https://nnamanx.github.io/Web_and_mobile_1_assignment_1/" target="_blank">Digital Card</a><br></br>
+      <a href="https://nnamanx.github.io/Weather_App/" target="_blank">Weather App</a>
   </div>
       </div>
       
