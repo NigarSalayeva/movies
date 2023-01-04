@@ -51,7 +51,7 @@ function Main() {
            
             <p class="id">{item.id}</p>
             <img class="nav-icon" src={item.Poster_Link} alt='help'/>
-            <div class='block'>
+            <div class="block">
             <p class="ser">{item.Series_Title+' ('+item.Released_Year+')'}</p>
               <p class="ser">IMDb Rating: ⭐ {item.IMDB_Rating}</p>
               <p class="dir"><b>Overview: </b>{item.Overview}</p>
