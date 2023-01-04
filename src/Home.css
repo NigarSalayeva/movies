@@ -1,6 +1,4 @@
-
-
-  .team {
+.team {
     background-color: #d4eaea;
     margin: 40px auto;
     padding: 25px 35px 40px 35px;
@@ -74,7 +72,7 @@
     font-weight: 100;
   }
   
-  a {
+  .member a {
     float: right;
     color: #e7ebef;
     font-size: 15px;
@@ -114,5 +112,4 @@ margin-top: 30px;
     margin: 100px 0px;
     padding-bottom: 50px;
   }
-  
   
