@@ -13,11 +13,11 @@ const Contact = () => {
 
     const handlesubmit = (e) => {
             e.preventDefault();
-            let regobj = {  name, subject, email, phone, message };
+            let data = {  name, subject, email, phone, message };
             fetch("http://localhost:8000/user", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
-                body: JSON.stringify(regobj)
+                body: JSON.stringify(data)
             }).then((res) => {
                 toast.success('Mail Sent successfully.')
     
@@ -41,32 +41,32 @@ const Contact = () => {
                                 <div className="col-lg-6">
                                     <div className="form-group">
                                         <label>Subject <span className="errmsg">*</span></label>
-                                        <input value={subject} onChange={e => subjectchange(e.target.value)} type="subject" className="form-control"></input>
+                                        <input value={subject} onChange={e => subjectchange(e.target.value)} type="subject" className="form-control"placeholder="Subject"></input>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
                                         <label>Full Name <span className="errmsg">*</span></label>
-                                        <input value={name} onChange={e => namechange(e.target.value)} className="form-control"></input>
+                                        <input value={name} onChange={e => namechange(e.target.value)} className="form-control" placeholder="Your Name"></input>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
                                         <label>Email <span className="errmsg">*</span></label>
-                                        <input value={email} onChange={e => emailchange(e.target.value)} className="form-control"></input>
+                                        <input value={email} onChange={e => emailchange(e.target.value)} className="form-control" placeholder="sample@gmail.com"></input>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
                                         <label>Phone <span className="errmsg"></span></label>
-                                        <input value={phone} onChange={e => phonechange(e.target.value)} className="form-control"></input>
+                                        <input value={phone} onChange={e => phonechange(e.target.value)} className="form-control" placeholder="+994-XX-XXX-XX-XX"></input>
                                     </div>
                                 </div>
                             
                                 <div className="col-lg-12">
                                     <div className="form-group">
                                         <label>Message</label>
-                                        <textarea value={message} onChange={e => messagechange(e.target.value)} className="form-control"></textarea>
+                                        <textarea value={message} onChange={e => messagechange(e.target.value)} className="form-control" placeholder="Type here..."></textarea>
                                     </div>
                                 </div>
                                
@@ -75,7 +75,7 @@ const Contact = () => {
 
                         </div>
                         <div className="card-footer">
-                            <button type="submit" className="btn btn-primary">Send message!</button> 
+                            <button id="center" type="submit" className="btn btn-primary">Send message!</button> 
                            
                         </div>
                     </div>
