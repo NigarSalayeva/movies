@@ -1,0 +1,96 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Nihira",
+      "password": "admin",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "8989898989",
+      "country": "usa",
+      "address": "",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "singapore",
+      "address": "address1\naddrees2",
+      "gender": "male"
+    },
+    {
+      "id": "Nigar",
+      "name": "Nigar Salayeva",
+      "password": "Nigar",
+      "email": "mail@mail.ru",
+      "phone": "0517067887",
+      "country": "india",
+      "address": "helloo adress",
+      "gender": "female"
+    },
+    {
+      "id": "Fidan",
+      "name": "Fidan slaakfw",
+      "password": "hello",
+      "email": "mail@mail.com",
+      "phone": "05678923",
+      "country": "india",
+      "address": "hii",
+      "gender": "female"
+    },
+    {
+      "id": "nishg",
+      "name": "cwlje",
+      "password": "weklncw",
+      "email": "iweshc@ada.edu.az",
+      "phone": "cwken",
+      "country": "india",
+      "address": "weknvw",
+      "gender": "female"
+    },
+    {
+      "id": "niahjc",
+      "name": "wcejb",
+      "password": "wksjncw",
+      "email": "nigar@gmail.com",
+      "phone": "239483210",
+      "country": "india",
+      "address": "weifcn",
+      "gender": "female"
+    },
+    {
+      "name": "Nigar Salahli",
+      "subject": "hello",
+      "email": "nm@gmail.com",
+      "phone": "928723476",
+      "message": "hello friends",
+      "id": "kr6v9Hi"
+    },
+    {
+      "name": "Nigar Salahli",
+      "subject": "hello",
+      "email": "nm@gmail.com",
+      "phone": "928723476",
+      "message": "hello friends",
+      "id": "M4XWon3"
+    },
+    {
+      "name": "Nigar Salahli",
+      "subject": "hello",
+      "email": "nm@gmail.com",
+      "phone": "928723476",
+      "message": "hello friends",
+      "id": "MCP2lGz"
+    },
+    {
+      "name": "Samir",
+      "subject": "movie",
+      "email": "samir@gmail.com",
+      "phone": "1094703",
+      "message": "I have a problem",
+      "id": "S_Ya51D"
+    }
+  ]
+}
