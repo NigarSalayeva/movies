@@ -4,20 +4,17 @@
   justify-content: center;
 }
 #centered{
-  width: 80%;
+  width: 90%;
+  margin: auto;
 }
 .lock{
   border-radius: 10px;
-  /* background: #282c34; */
   background: #9EB599;
-  /* margin-bottom: 5px; */
   margin: 5px;
   padding: 7px;
-  width: 90%;
   display:block;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(217, 202, 202);
   
 }
 .lock2{
@@ -61,7 +58,8 @@
   background: #9EB599;;
 }
 .block{
-  margin: 15px;
+  
+  margin: 5px;
   display: inline-block;
   vertical-align: middle;
   color: #4d1b1f;
