@@ -10,7 +10,7 @@ function Main() {
   useEffect(()=>{
     const getContent= async()=>{
       const res=await fetch(
-        "http://localhost:3004/posts?_page=1&_limit=20"
+        "http://localhost:3004/posts?_page=1&_limit=21"
       );
       const data=await res.json();
       setItems(data)
@@ -21,7 +21,7 @@ function Main() {
 
   const getFetch= async(CurrentPage)=>{
     const res=await fetch(
-      "http://localhost:3004/posts?_page="+ CurrentPage +"&_limit=20"
+      "http://localhost:3004/posts?_page="+ CurrentPage +"&_limit=21"
     );
     const data=await res.json();
     return data
@@ -68,7 +68,7 @@ function Main() {
       <ReactPaginate 
       previousLabel={'previous'}
       nextLabel={'next'}
-      pageCount={50}
+      pageCount={48}
       marginPagesDisplayed={2}
       onPageChange={handlePageChange}
       containerClassName={'pagination'}
